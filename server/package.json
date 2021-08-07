@@ -5,7 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production&&nodemon server.js"
   },
   "author": "Abdulmajeed Hussaini Moddibo",
   "license": "ISC",
